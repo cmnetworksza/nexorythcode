@@ -1,0 +1,1 @@
+import Link from "next/link";export default function NotFound(){return <main className="shell" style={{paddingTop:100,textAlign:"center"}}><p className="eyebrow">404</p><h1>Page not found</h1><p className="muted">The page you're looking for isn't here.</p><Link className="btn" href="/">Back to homepage</Link></main>}
